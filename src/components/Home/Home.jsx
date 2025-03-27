@@ -17,9 +17,9 @@ export default function Home() {
 
                     <div className="border-2 shadow-xl dark:shadow-gray-800 rounded-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
 
-                        <h2 className="text-4xl  sm:text-7xl text-white p-4">
+                        <h2 className="text-4xl  sm:text-7xl text-white p-4 ">
                             Explore the nature with
-                            <span className="hidden font-extrabold sm:block text-7xl">
+                            <span className="hidden font-extrabold sm:block text-7xl ">
                             
                            <h1>Nature's heaven</h1> 
                             </span>
