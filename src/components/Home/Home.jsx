@@ -8,9 +8,11 @@ export default function Home() {
         // <div className='bg-gradient-to-tr from-green-800 to-green-500'>
         <div style={{backgroundImage: "url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"}} className="bg-cover bg-center bg-no-repeat h-screen relative ">
          <div className="absolute inset-0 bg-gradient-to-t from-white/30 via-white/10 to-transparent opacity-70 h-full "></div>
-         <img src="/logo2.png" className='bg-transparent absolute  h-full ' alt="logo"/>
+         <img src="src\assets\logo-white.png" className='bg-transparent absolute  h-half my-10 z-11' alt="logo"/>
 
-    <div className="mx-auto w-full max-w-7xl text-white">
+
+
+    <div className="mx-auto w-full max-w-7xl text-white ">
 
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
