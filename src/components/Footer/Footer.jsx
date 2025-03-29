@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="/logo2.png"
+                                src="src\assets\logo.png"
                                 className="mr-3 h-24"
                                 alt="Logo"
                             />
