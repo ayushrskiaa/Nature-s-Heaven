@@ -12,6 +12,7 @@ export default function Header() {
 
                             <img
                                 src="src/assets/logo.png"
+                                // src="url('https://drive.google.com/file/d/1q6UQVGrp6Oc8ygZDxGwoeDFSmtMBjSzC/view?usp=sharing')"
                                 className="mr-5 h-12"
                                 alt="Logo"
                             />
