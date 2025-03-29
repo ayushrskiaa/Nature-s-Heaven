@@ -9,6 +9,7 @@ export default function Home() {
         <div style={{backgroundImage: "url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"}} className="bg-cover bg-center bg-no-repeat h-screen relative ">
          {/* <div style={{backgroundImage: "src\assets\bg-imgage.png"}} className="bg-cover bg-center bg-no-repeat h-screen relative "> */}
 
+
          <div className="absolute inset-0 bg-gradient-to-t from-white/30 via-white/10 to-transparent opacity-70 h-full "></div>
          <img src="src/assets/logo-white.png" className='bg-transparent absolute  h-half my-10 z-11' alt="logo"/>
 
