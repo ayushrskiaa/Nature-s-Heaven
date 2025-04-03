@@ -1,6 +1,5 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 // import { Bed } from "lucide-react";
-
 
 function Explore() {
     return (
@@ -28,10 +27,9 @@ function Explore() {
                 </svg>
             </button>
 
-
             <aside
                 id="default-sidebar"
-                className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+                className="fixed top-17 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 "
                 aria-label="Sidebar"
             >
                 <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800 bg-gradient-to-bl from-emerald-900 to-emerald-800 z-0">
@@ -68,7 +66,9 @@ function Explore() {
                                 >
                                     <path d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
                                 </svg>
-                                <span className="flex-1 ms-3 whitespace-nowrap">Our Services</span>
+                                <span className="flex-1 ms-3 whitespace-nowrap">
+                                    Our Services
+                                </span>
                                 <span className="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300"></span>
                             </a>
                         </li>
@@ -77,11 +77,23 @@ function Explore() {
                                 href=""
                                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                             >
-                                <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
-                                    <path stroke="currentColor" strokeLinejoin="round" strokeWidth="2" d="M8 8v1h4V8m4 7H4a1 1 0 0 1-1-1V5h14v9a1 1 0 0 1-1 1ZM2 1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Z" />
+                                <svg
+                                    className="w-6 h-6 text-gray-800 dark:text-white"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 20 16"
+                                >
+                                    <path
+                                        stroke="currentColor"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
+                                        d="M8 8v1h4V8m4 7H4a1 1 0 0 1-1-1V5h14v9a1 1 0 0 1-1 1ZM2 1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Z"
+                                    />
                                 </svg>
-                                <span className="flex-1 ms-3 whitespace-nowrap">Rooms & Suites</span>
-
+                                <span className="flex-1 ms-3 whitespace-nowrap">
+                                    Rooms & Suites
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -98,7 +110,9 @@ function Explore() {
                                 >
                                     <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
                                 </svg>
-                                <span className="flex-1 ms-3 whitespace-nowrap">Dining & Cuisine</span>
+                                <span className="flex-1 ms-3 whitespace-nowrap">
+                                    Dining & Cuisine
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -115,7 +129,9 @@ function Explore() {
                                 >
                                     <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
                                 </svg>
-                                <span className="flex-1 ms-3 whitespace-nowrap">Activities & Amenities</span>
+                                <span className="flex-1 ms-3 whitespace-nowrap">
+                                    Activities & Amenities
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -138,7 +154,10 @@ function Explore() {
                                         d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"
                                     />
                                 </svg>
-                                <span className="flex-1 ms-3 whitespace-nowrap"> Surroundings & Views:</span>
+                                <span className="flex-1 ms-3 whitespace-nowrap">
+                                    {" "}
+                                    Surroundings & Views:
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -157,7 +176,9 @@ function Explore() {
                                     <path d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z" />
                                     <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z" />
                                 </svg>
-                                <span className="flex-1 ms-3 whitespace-nowrap">Events & Celebrations:</span>
+                                <span className="flex-1 ms-3 whitespace-nowrap">
+                                    Events & Celebrations:
+                                </span>
                             </a>
                         </li>
                         <li>
@@ -186,51 +207,73 @@ function Explore() {
             </aside>
 
 
-            <section id='Place'>
 
+            <div className="w-1/2 mx-auto py-3" >
+
+                <div className="flex px-4 py-3 rounded-md border-2 border-white-500 overflow-hidden p-4 mb-4 bg-white shadow-md w-3/4 mx-auto  ">
+                    <input
+                        type="email"
+                        placeholder="Search Something..."
+                        className="w-full outline-none bg-transparent text-gray-600 text-sm"
+                    />
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 192.904 192.904"
+                        width="16px"
+                        className="fill-gray-600"
+                    >
+                        <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                    </svg>
+                </div>
+            </div>
+
+
+            <section id="Place">
                 <div className="p-4 sm:ml-64">
                     <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
                         <div className="grid grid-cols-3 gap-4 mb-4">
+                            
                             <div className="flex items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800">
                                 <img
-                                    src="https://t4.ftcdn.net/jpg/10/68/71/69/240_F_1068716905_uZ0Iwtb2OTCBRm4pU2JISYNc4zqYDsTc.jpg"
+                                    src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=600"
                                     alt=""
                                 />
+                                <div className="absolute text-white text-left ">
+                                <h1 className="font-bold text-2xl" >Hotel xyz</h1>
+                                <h1 className="text" > Know more</h1>
+
+                                </div>
+                               
                             </div>
 
                             <div className="flex items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800 ">
                                 <img
                                     className="w-full"
-                                    src="https://t3.ftcdn.net/jpg/10/58/32/22/240_F_1058322296_cZKaNUqGbny8p81OgvjiyCfEbdq1BpQR.jpg"
+                                    src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600"
                                     alt=""
                                 />
                             </div>
 
                             <div className="flex items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800">
                                 <img
-                                    src="https://t3.ftcdn.net/jpg/12/85/07/64/240_F_1285076429_Xvz5A8gncty9xRfSYGUs7sGaL7hXi2C1.jpg"
+                                    src="https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?auto=compress&cs=tinysrgb&w=600"
                                     alt=""
                                 />
                             </div>
                         </div>
 
-
                         <div className="flex items-center overflow-hidden justify-center h-80 mb-4 rounded-sm bg-gray-50 dark:bg-gray-800 ">
                             <img
                                 className="w-full relative"
-                                src="https://t3.ftcdn.net/jpg/12/85/07/64/240_F_1285076429_Xvz5A8gncty9xRfSYGUs7sGaL7hXi2C1.jpg"
+                                src="https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=600"
                                 alt=""
                             />
                         </div>
-
-                        
                     </div>
-
-
-
                 </div>
-
             </section>
+
+
 
 
 

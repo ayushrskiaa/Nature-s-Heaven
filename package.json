@@ -1,8 +1,20 @@
 {
-  "name": "07reactrouter",
-  "private": true,
+  "name": "backend",
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/ayushrskiaa/Nature-s-Heaven#readme",
+  "bugs": {
+    "url": "https://github.com/ayushrskiaa/Nature-s-Heaven/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushrskiaa/Nature-s-Heaven.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "postcss.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
