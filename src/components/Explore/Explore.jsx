@@ -213,7 +213,7 @@ function Explore() {
                 <div className="flex px-4 py-3 rounded-md border-2 border-white-500 overflow-hidden p-4 mb-4 bg-white shadow-md w-3/4 mx-auto  ">
                     <input
                         type="email"
-                        placeholder="Search Something..."
+                        placeholder="Search hotels, places..."
                         className="w-full outline-none bg-transparent text-gray-600 text-sm"
                     />
                     <svg
@@ -233,49 +233,60 @@ function Explore() {
                     <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
                         <div className="grid grid-cols-3 gap-4 mb-4">
                             
-                            <div className="flex items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800">
+                            <div className="flex relative items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800 hover:opacity-75">
                                 <img
                                     src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=600"
                                     alt=""
                                 />
-                                <div className="absolute text-white text-left ">
-                                <h1 className="font-bold text-2xl" >Hotel xyz</h1>
-                                <h1 className="text" > Know more</h1>
+                                <div className="absolute bottom-2 right-10 text-white text-left content-center  ">
+                                <h1 className="font-bold text-2xl" >Hotel Grand- Imphal</h1>
+                                <h1 className="text-right" > Know more</h1>
 
                                 </div>
                                
                             </div>
 
-                            <div className="flex items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800 ">
+                            <div className="flex relative items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800 hover:opacity-75">
                                 <img
                                     className="w-full"
                                     src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600"
                                     alt=""
                                 />
+                                 <div className="absolute bottom-2 right-10 text-white text-left content-center  ">
+                                <h1 className="font-bold text-2xl" >Hotel Lanchenba</h1>
+                                <h1 className="text-right" > Know more</h1>
+
+                                </div>
                             </div>
 
-                            <div className="flex items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800">
+                            <div className="flex relative items-center overflow-hidden justify-center h-40 rounded-sm bg-gray-50 dark:bg-gray-800 hover:opacity-75">
                                 <img
                                     src="https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?auto=compress&cs=tinysrgb&w=600"
                                     alt=""
                                 />
+                                 <div className="absolute bottom-2 right-10 text-white text-left content-center ">
+                                <h1 className="font-bold text-2xl" >Hotel Disneyland</h1>
+                                <h1 className="text-right" > Know more</h1>
+
+                                </div>
                             </div>
                         </div>
 
-                        <div className="flex items-center overflow-hidden justify-center h-80 mb-4 rounded-sm bg-gray-50 dark:bg-gray-800 ">
+                        <div className="flex relative items-center overflow-hidden justify-center h-80 mb-4 rounded-sm bg-gray-50 dark:bg-gray-800 hover:opacity-75">
                             <img
-                                className="w-full relative"
-                                src="https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                className="w-full relative "
+                                src="https://images.pexels.com/photos/16144950/pexels-photo-16144950/free-photo-of-village-in-tropical-forest.jpeg?auto=compress&cs=tinysrgb&w=600"
                                 alt=""
                             />
+                             <div className="absolute bottom-10 right-10 text-white text-left content-center ">
+                                <h1 className="font-bold text-2xl" >Hotel Nature Safari</h1>
+                                <h1 className="text-right" > Know more</h1>
+
+                                </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
-
 
 
         </div>

@@ -13,26 +13,9 @@ import Login from './components/Login/Login.jsx'
 import Signup from './components/Signup/Signup.jsx'
 
 import Explore from './components/Explore/Explore.jsx'
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Layout/>,
-//     children: [
-//       {
-//         path: "",
-//         element: <Home />
-//       },
-//       {
-//         path: "about",
-//         element: <About />
-//       },
-//       {
-//         path: "contact",
-//         element: <Contact />
-//       }
-//     ]
-//   }
-// ])
+// import Hotel from './components/Pages/Hotels.jsx'
+// import HotelDetail from './components/Pages/HotelDetails.js'
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -44,12 +27,8 @@ const router = createBrowserRouter(
       <Route path='Login' element={<Login />} />
       <Route path='Signup' element={<Signup />} />
       <Route path='Explore' element={<Explore />} />
-
-      {/* <Route 
-      loader={githubInfoLoader}
-      path='github' 
-      element={<Github />}
-       /> */}
+      {/* <Route path='hotel' element={<Hotel />} /> */}
+      
     </Route>
   )
 )
