@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <h1>Hotel Listings</h1>
+
       <ul>
         {hotels.map((hotel) => (
           <li key={hotel.id}>
@@ -17,9 +18,9 @@ const Home = () => {
           </li>
         ))}
       </ul>
+      
     </div>
   );
-  
 };
 
 export default Home;
