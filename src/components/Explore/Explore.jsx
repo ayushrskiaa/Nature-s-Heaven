@@ -314,16 +314,18 @@ function Explore() {
                     alt={hotelItem.name}
                     className="h-full w-full object-cover"
                   />
-                  <div className="absolute bottom-2 right-2 left-2 text-white text-left content-center flex flex-col  p-2 rounded-lg">
+                  <div className="absolute bottom-2 right-2 left-2 text-white text-left content-center flex flex-col p-2 rounded-lg">
                     <h1 className="font-bold text-lg sm:text-xl md:text-2xl">
                       {hotelItem.name}
                     </h1>
-                    <h1 className="text-right text-xs sm:text-sm md:text-base">
+                    <h1 className="text-left text-xs sm:text-sm md:text-base">
                       {hotelItem.place}
                     </h1>
-                    <h1 className="text-right text-xs sm:text-sm md:text-base">
+                    <button className=" text-center text-xs sm:text-sm md:text-base bg-orange-700 p-1 mt-2 w-24 rounded-lg inline-block">
                       Know more
-                    </h1>
+                    </button>
+                    {/* <button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Know more</button> */}
+
                   </div>
                 </div>
               ))}
