@@ -29,24 +29,29 @@ export default function About() {
        <img  src="https://images.pexels.com/photos/27896591/pexels-photo-27896591/free-photo-of-green-leaves-wallpaper.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
 
        </div> */}
-            <h2 className="text-3xl text-white font-bold md:text-4xl my-3 py-2">
-              Welcome to Our Nature Haven
-            </h2>
-            <p className="text-white ">
-              At our core, we celebrate the beauty and diversity of the natural
-              world. From the lush green forests to the vibrant wildlife that
-              calls them home, every corner of nature tells a story worth
-              exploring. Our mission is to inspire a deeper connection with the
-              environment and promote the protection of our precious ecosystems.
-              Whether you're an animal lover, a nature enthusiast, or simply
-              curious about the wonders of the wild, you'll find captivating
-              stories, insightful information, and breathtaking visuals here.
-              Together, let's cherish and protect the world we share. J
-            </p>
-            <p className="mt-4 text-white">
-              Join us on this journey of awe and appreciation — because nature’s
-              beauty is a treasure for all.
-            </p>
+       <h2 className="text-3xl text-white font-bold md:text-4xl my-3 py-2">
+  Welcome to Nature's Haven 
+</h2>
+       <h2 className="text-xl text-white font-bold md:text-xl my-3 py-2">
+       Your Gateway to Unforgettable Hotel Experiences  
+</h2>
+
+<p className="text-white ">
+  Discover the perfect stay for your next adventure. Our platform connects you 
+  with the best hotels, offering comfort, luxury, and convenience. Whether you're 
+  traveling for business or leisure, we ensure a seamless booking experience 
+  tailored to your needs. From budget-friendly options to premium accommodations, 
+  we have something for everyone.
+</p>
+<p className="mt-4 text-white">
+  Explore a wide range of hotels, compare prices, and book your ideal stay with 
+  just a few clicks. Your satisfaction is our priority, and we strive to make 
+  your travel planning as effortless as possible.
+</p>
+<p className="mt-4 text-white">
+  Join us in making your travel dreams a reality — because your perfect stay 
+  starts here.
+</p>
           </div>
         </div>
       </div>
