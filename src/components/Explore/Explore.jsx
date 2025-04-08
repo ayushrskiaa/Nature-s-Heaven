@@ -309,6 +309,9 @@ function Explore() {
                   key={hotelItem.id}
                   className="flex relative items-center overflow-hidden justify-center h-40 rounded-xl hover:opacity-75"
                 >
+
+
+                
                   <img
                     src={hotelItem.img}
                     alt={hotelItem.name}
